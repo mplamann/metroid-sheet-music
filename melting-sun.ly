@@ -4,12 +4,11 @@ upper = {
     \key c \minor
     r1
     % section beginning at 1:01
-    <<ees'16 ees16>> <<ees'8 ees8>> <<ees'16 ees16>>
-    <<d'16 d16>> <<d'8 d8>> <<d'16 d16>>
-    <<c'16 c16>> <<c'8 c8>> <<c'16 c16>>
-    <<bes,16 bes16>> <<bes,8 bes8>> <<bes,16 bes16>>
-    <<c'16 c16>> <<c'8 c8>> <<c'16~ c16~>>
-    <<c'2.~ c2.~>>
+    ees'16 ees'8 ees'16
+    d'16 d'8 d'16
+    c'16 c'8 c'16
+    bes16 bes8 bes16
+    c'16 c'8 c'16~ c'2.~
   }
 
 lower = {

@@ -8,13 +8,33 @@ upper = {
     d'16 d'8 d'16
     c'16 c'8 c'16
     bes16 bes8 bes16
-    c'16 c'8 c'16~ c'2.~
+    |
+    c'16 c'8 c'16~ c'2.
+    |
+    ees'16 ees'8 ees'16
+    c'16 c'8 c'16
+    d'16 d'8 d'16
+    g'16 g'8 g'16
+    |
+    c'16 c'8 c'16~ c'2.
   }
 
 lower = {
   \clef bass
   \key c \minor
   r1
+  |
+  c16 c'8 c'16
+  bes,16 bes8 bes16
+  aes,16 aes8 aes16
+  g,16 g8 g16
+  |
+  c16 c'8 c'16
+  c16 c'8 c'16
+  c16 c'8 c'16
+  c16 c'8 c'16
+  |
+  % TODO: I think this isn't the right notes
   c16 c'8 c'16
   bes,16 bes8 bes16
   aes,16 aes8 aes16

@@ -1,0 +1,10 @@
+* Lilypad emacs improvements
+** Fix indentation
+   TAB should do something reasonable
+   Maybe a chance to play with tree-sitter?
+** Easy insert of chords
+   Something is screwy with [s>] in evil-surround, but in any case there should
+   be easy syntax for inserting chords
+** Electric brackets
+   Don't make me enter } manually
+

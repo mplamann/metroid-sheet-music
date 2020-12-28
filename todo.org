@@ -7,4 +7,5 @@
    be easy syntax for inserting chords
 ** Electric brackets
    Don't make me enter } manually
+** Adjust syntax table to count ' and , as word characters
 

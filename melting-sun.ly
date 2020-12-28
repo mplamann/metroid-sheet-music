@@ -1,5 +1,10 @@
 \version "2.18.0"
 
+#(set! paper-alist (cons '("ipad" . (cons (* 7.74 in) (* 10.32 in))) paper-alist))
+\paper {
+  #(set-paper-size "ipad")
+}
+
 \header {
   title = "Melting Sun"
   composer = "Kenji Yamamoto"   % I think?
@@ -8,7 +13,7 @@
 
 upper = {
     \key c \minor
-    <c'' f'' g'' c'''>1\mp\fermata\arpeggio
+    <c'' f'' g'' c'''>1\pp\fermata\arpeggio
     q\fermata\arpeggio
     q\fermata\arpeggio
     q\fermata\arpeggio
@@ -23,7 +28,7 @@ upper = {
     r
     r\fermata
     \bar "||"
-    ees'8 ees'4 ees'8
+    ees'8\mp ees'4 ees'8
     d'8 d'4 d'8
     c'8 c'4 c'8
     bes8 bes4 bes8
@@ -45,25 +50,25 @@ upper = {
     \bar "||"
     ees'8 ees' c' ees' d' d' bes d'
     c' c' aes c' bes bes g bes
-    c'4 c' c' c'~
-    c' c' c' c'
+    c'1~
+    c'
 
     ees'8 ees' c' ees' c' c' bes c'
     d' d' aes d' g' g' g g'
-    c' c' c'4 c' c'~
-    c'8 g c' g c' g c' g
+    c' c' r2.
+    r1
 
-    c g c' g c' g c' g
+    c8 g c' g c' g c' g
     c g c' g c' g c' g
     \bar "||"
 
-    ees'4_\markup { \italic accel. } d' c'8 bes g ees'~
-    ees'4 d' c'8 bes f ees'~
-    ees'4 d' c'8 bes ees c'~
-    c'4 g g g
+    ees'4_\markup { \italic accel. } d' c'8 bes r ees'~
+    ees'4 d'8 bes c' bes r ees'~
+    ees'4 d'8 aes c' bes g c'~
+    c'1
 
-    ees'4 d'8 c' c' bes g ees'~
-    ees'4 d' c'8 bes f ees'~
+    ees'4 d'8 c' c' bes r ees'~
+    ees'4 d'8 bes c'8 bes r ees'~
     ees'4 d' ees'8 g'4 d'8~
     d'1
 
@@ -116,7 +121,7 @@ upper = {
     }
     c''''8
 
-    <ees'' ees'''>4
+    <ees'' ees'''>4\f\>
     q
     <d'' d'''>
     q
@@ -127,7 +132,7 @@ upper = {
     <c'' c'''>
     q2.~
     q1
-    <ees'' ees'''>4
+    <ees'' ees'''>4\!\mf\>
     q
     <c'' c'''>
     q
@@ -137,10 +142,10 @@ upper = {
     q
     <c'' c'''>
     q2.~
-    q1
+    q1\!\mp
 
     \ottava #1
-    <ees''' ees''''>4
+    <ees''' ees''''>4\>
     q
     <d'''' d'''>
     q
@@ -161,7 +166,7 @@ upper = {
     q
     <c'''' c'''>
     q2.~
-    q1
+    q1\!\p
 
     \ottava #0
     <g c' ees'>1\arpeggio
@@ -185,7 +190,7 @@ upper = {
     \time 2/4
     aes'8 bes'4.
     \time 5/4
-    c''4 bes8 aes' f' g' aes' bes' c'4
+    c''4 bes'8 aes' f' g' aes' bes' c''4
     \time 6/8
     <aes' c''>4.
     <f' g' c''>
@@ -256,26 +261,26 @@ lower = {
   bes,8 f4 f8
   aes,8 ees4 ees8
   g,8 d4 d8
-  c8 g4 g4 g4 g8
-  c8 g4 g4 g4 g8
+  c g c' g c' g c' g
+  c g c' g c' g c' g
 
   c8 g4 g8
   bes,8 f4 f8
   aes,8 ees4 ees8
   g,8 d4 d8
-  c8 g4 g4 g4 g8
+  c g c' g c' g c' g
+  c g c' g c' g c' g
 
-  c1
-  <c, c,,>
+  <c, c,,>1
   <c, g,>
   \bar "||"
 
-  c8 g4 g8~ g4. bes,8~
-  bes, f4 bes8~ bes4. aes,8~
-  aes, ees4 aes8~ aes4. g,8~
-  g,8 d4 d d d8
-  c g4.~ g bes,8~
-  bes, f4 bes8~bes4. aes,8~
+  c8 g4 g4. g8 bes,~
+  bes, f4 bes4. f8 aes,~
+  aes, ees~ ees2 ees8 g,~
+  g,8 d g d g d g d
+  c g8~ g2 g8 bes,8~
+  bes, f8~ f2 f8 aes,8~
   aes,8 ees4 aes ees g,8~
   g, d g d g d g d
 
@@ -322,14 +327,14 @@ lower = {
   <c ees g c'>1
 
   \tuplet 3/2 4 {
-    c8 ees g c' g ees c ees g c' g ees
+    c8\sustainOn ees g c' g ees c ees g c' g ees\sustainOff
     % c8 ees g c' g ees c ees g c' g ees
-    bes, d f bes f d bes, d f bes f d
-    aes, c ees aes ees c aes, c ees aes ees c
-    g, bes, d g d bes, g, bes, d g bes d'
-    ees' c' g ees c g, ees' c' g ees c g,
-    d' bes f d bes, f, d' bes f d bes, f,
-    c' aes ees c aes, ees, c' aes ees c aes, ees,
+    bes,\sustainOn d f bes f d bes, d f bes f d\sustainOff
+    aes,\sustainOn c ees aes ees c aes, c ees aes ees c\sustainOff
+    g,\sustainOn bes, d g d bes, g, bes, d g bes d'\sustainOff
+    ees'\sustainOn c' g ees c g, ees' c' g ees c g,\sustainOff
+    d'\sustainOn bes f d bes, f, d' bes f d bes, f,\sustainOff
+    c'\sustainOn aes ees c aes, ees, c' aes ees c aes, ees,\sustainOff
   }
   <g, b, d g>1
 
@@ -338,7 +343,7 @@ lower = {
   <aes, c ees aes>
   <g, bes, d g>
 
-  <c ees g c>
+  <c ees g c'>
   <bes, d f bes>
   <aes, c ees aes>
   <g, bes, d g>

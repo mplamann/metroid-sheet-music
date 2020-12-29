@@ -8,4 +8,5 @@
 ** Electric brackets
    Don't make me enter } manually
 ** Adjust syntax table to count ' and , as word characters
+** Build a workflow where pages can be live-previewed on ipad
 

@@ -76,7 +76,7 @@ upper = {
     f' ees'8 d'4 <d' g'>8~
     <d' g'>4 <d' f'> ees'8 d'4 <c' g'>8~
     <c' g'>4 <c' f'> ees'8 d'4 <c' ees' g'>8~
-    q2. q8 q8~
+    q2. r8 q8~
     q4 <c' f'> ees'8 d'4 <bes d' f'>8~
     q4 ees'4 d'8 bes4 <f a c'>8~
     q2~ q8 <a c' f'>4 <b d' f'>8~

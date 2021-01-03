@@ -1,4 +1,4 @@
-* Lilypad emacs improvements
+* Lilypond emacs improvements
 ** Fix indentation
    TAB should do something reasonable
    Maybe a chance to play with tree-sitter?

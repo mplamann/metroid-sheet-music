@@ -227,7 +227,7 @@ lower = {
   <g d' g'>2\fermata\arpeggio
   d'2\fermata
   <aes ees' aes'>\fermata\arpeggio
-  ees'\fermata\arpeggio
+  ees'\fermata
   <g d' g'>2\fermata\arpeggio
   d'2\fermata
   <aes ees' aes'>1\fermata\arpeggio

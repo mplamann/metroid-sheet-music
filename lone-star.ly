@@ -21,12 +21,16 @@ upper = {
     <b' d'' fis'' b''>2.\arpeggio
     d'''4 cis'''2. a''4 b''1~ b''1
 
+    \ottava #1
     <e'' g'' c''' e'''>2.\arpeggio
     g'''4 fis'''2. g'''4 a'''1~ a'''1
+    \ottava #0
 
     % idk if this is right, but it kinda sounds right?
     <d' a' d'' g'' g'''>2.\arpeggio
+    \ottava #1
     a'''4 fis'''2. e'''8 d'''8 b'''1~ b'''1
+    \ottava #0
 
     r1
     \time 6/8

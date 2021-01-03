@@ -276,7 +276,7 @@ lower = {
   \bar "||"
 
   c8 g4 g4. g8 bes,~
-  bes, f4 bes4. f8 aes,~
+  bes, f8~ f2 f8 aes,~
   aes, ees~ ees2 ees8 g,~
   g,8 d g d g d g d
   c g8~ g2 g8 bes,8~

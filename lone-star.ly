@@ -44,24 +44,30 @@ upper = {
     r1
 
     % TODO: RH starts playing here
-    r1
-    r1
-    r1
-    r1
-
-    r1
-    r1
-    r1
+    <e' g' b' e''>2. <g' b' d'' g''>4
+    <fis' a' cis'' fis''>2. <d' fis' a' d''>4
+    <e' g' b' e''>1
     r1
 
-    r1
-    r1
-    r1
+    <b d' fis' b'>2. <d' fis' a' d''>4
+    <cis' e' gis' cis''>2. <a cis' e' a'>4
+    <b d' fis' b'>1
     r1
 
-    r1 r1 r1 r1
+    <e' g' b' e''>2. <g' d'' g''>4
+    <fis' d'' fis''>2. <g' d'' g''>4
+    <a' d'' a''>1
+    r1
 
-    r1 r1 r1 r1
+    <g' b' d'' g''>2. <a' d'' fis'' a''>4
+    % I can't tell if there should be more notes in these chords or not
+    <fis' fis''>4. <e' e''>4. <d' d''>4
+    <b' b''>1
+    r1
+
+    <b' fis'' a'' b''>1
+    r1 r1 r1
+    r1
 
     \time 5/4
     r1 r4
@@ -135,6 +141,7 @@ lower = {
 
   % just fucking hit the note a bunch
   d,16 d,16 d,16 d,16 d,16 d,16 d,16 d,16 d,16 d,16 d,16 d,16 r4
+  r1
 
   % 1:34
   \time 5/4

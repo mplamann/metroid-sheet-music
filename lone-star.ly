@@ -43,7 +43,6 @@ upper = {
     r1
     r1
 
-    % TODO: RH starts playing here
     <e' g' b' e''>2. <g' b' d'' g''>4
     <fis' a' cis'' fis''>2. <d' fis' a' d''>4
     <e' g' b' e''>1
@@ -72,7 +71,7 @@ upper = {
     \time 5/4
     r1 r4
     r1 r4
-    r1 r4
+    r2 <d b>2.
     r1 r4
 
     \time 4/4
@@ -148,7 +147,7 @@ lower = {
   <d, d,,>8 <e, e,,>8~ q2  <fis, fis,,>4 <d, d,,>4
   <d, d,,>8 <e, e,,>8~ q2  <fis, fis,,>4 <d, d,,>4
   <d, d,,>8 <e, e,,>8~ q2  <fis, fis,,>4 <d, d,,>4
-  <d, d,,>8 <e, e,,>8~ q2  <fis, fis,,>2\fermata
+  <d, d,,>8 <e, e,,>8~ q2  <fis, fis,,>4 <d, d,,>4\fermata
   
 
   \time 4/4

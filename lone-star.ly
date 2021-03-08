@@ -29,10 +29,49 @@ upper = {
     % idk if this is right, but it kinda sounds right?
     <d' a' d'' g'' g'''>2.\arpeggio
     \ottava #1
-    a'''4 fis'''2. e'''8 d'''8 b'''1~ b'''1
+    a'''4 fis'''2. e'''8 d'''8 <b'' d''' fis''' b'''>1\arpeggio~ q
+    <c''' e''' g''' b'''>\arpeggio~ q
     \ottava #0
 
     r1
+    r1
+    r1
+    r1
+
+    r1
+    r1
+    r1
+    r1
+
+    % TODO: RH starts playing here
+    r1
+    r1
+    r1
+    r1
+
+    r1
+    r1
+    r1
+    r1
+
+    r1
+    r1
+    r1
+    r1
+
+    r1 r1 r1 r1
+
+    r1 r1 r1 r1
+
+    \time 5/4
+    r1 r4
+    r1 r4
+    r1 r4
+    r1 r4
+
+    \time 4/4
+    r1
+
     \time 6/8
 
     e'4. e'4. e'4 fis' g'
@@ -50,9 +89,65 @@ lower = {
   r1 r1 r1 r1
   r1 r1 r1 r1
   r1 r1 r1 r1
-  r1 r1 r1 r1
+  r1 r1 
+  r16 b' b r16 r2.
+  r1
   r1
 
+  r1
+
+  e4 b8 e'4 e8 b e'
+  e4 b8 e'4 e8 b e'
+  e4 b8 e'4 e8 b e'
+  e4 b8 d4 a8 d' a
+
+  e4 b8 e'4 e8 b e'
+  e4 b8 e'4 e8 b e'
+  e4 b8 e'4 b8 e' b
+  g4 d'8 fis4 cis'8 d a
+
+  
+  e4 b8 e'4 b8 e' b
+  e4 b8 d'4 b8 d' b
+  e4 b8 e'4 b8 e' b
+  e4 b8 fis'4 b8 d' b
+
+  b,4 fis8 b4 fis8 b fis
+  b,4 fis8 a4 fis8 a fis
+  b,4 fis8 b4 fis8 b fis
+  b,4 fis8 cis'4 fis8 d' fis
+  
+  c4 g8 c'4 g8 c' g
+  c4 g8 b4 g8 b g
+  c4 g8 d'4 c8 g d'
+  c4 c'8 g4 c'8 g c'
+
+  % 1:13
+  d4 a8 d'4 a8 d' a
+  d4 a8 d'4 a8 d' a
+  b,4 fis8 b4 fis8 b fis
+  b,4 fis8 b4 fis8 b fis
+
+  c4 g8 c'4 g8 c' g
+  % slow down a lot here
+  c4 g8 c'4 g8 c4~
+  c1
+
+  % just fucking hit the note a bunch
+  d,16 d,16 d,16 d,16 d,16 d,16 d,16 d,16 d,16 d,16 d,16 d,16 r4
+
+  % 1:34
+  \time 5/4
+  <d, d,,>8 <e, e,,>8~ q2  <fis, fis,,>4 <d, d,,>4
+  <d, d,,>8 <e, e,,>8~ q2  <fis, fis,,>4 <d, d,,>4
+  <d, d,,>8 <e, e,,>8~ q2  <fis, fis,,>4 <d, d,,>4
+  <d, d,,>8 <e, e,,>8~ q2  <fis, fis,,>2\fermata
+  
+
+  \time 4/4
+  r1
+
+  \time 6/8
   e,8 g, b, e b, g,
   e, g, b, e b, e
 c, e, g, c g, e,

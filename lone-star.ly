@@ -64,7 +64,7 @@ upper = {
     <b' b''>1
     r1
 
-    <b' fis'' a'' b''>1
+    <b' fis'' a'' b''>1\arpeggio
     r1 r1 r1
     r1
 
@@ -76,6 +76,12 @@ upper = {
 
     \time 4/4
     r1
+
+    <b e'>4. q r4
+    << { a4. } { d'8 g' fis' } >>
+    r8 r2
+
+    r1 r1 r1
 
     \time 6/8
 
@@ -153,6 +159,8 @@ lower = {
   \time 4/4
   r1
 
+  r1 r1 r1 r1
+
   \time 6/8
   e,8 g, b, e b, g,
   e, g, b, e b, e
@@ -169,3 +177,4 @@ d, fis, a, d a, d
   \new Staff = "upper" \upper
   \new Staff = "lower" \lower
 >>
+

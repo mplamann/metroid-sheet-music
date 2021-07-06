@@ -23,8 +23,8 @@ upper = {
     <c'' f'' g'' c'''>\fermata\arpeggio
     <d'' g'' aes'' d'''>\fermata\arpeggio
     <d'' g'' aes'' d'''>\fermata\arpeggio~
-    <d'' g'' aes'' d'''>\fermata\arpeggio~
-    <d'' g'' aes'' d'''>\fermata\arpeggio
+    <d'' g'' aes'' d'''>\fermata~
+    <d'' g'' aes'' d'''>\fermata
     r
     r\fermata
     \bar "||"

@@ -160,6 +160,7 @@ lower = {
   r1
 
   r1 r1 r1 r1
+  r1
 
   \time 6/8
   e,8 g, b, e b, g,
